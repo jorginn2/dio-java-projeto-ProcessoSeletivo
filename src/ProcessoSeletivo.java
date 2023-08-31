@@ -4,7 +4,8 @@ import java.util.concurrent.ThreadLocalRandom;
 public class ProcessoSeletivo {
 
 		public static void main(String[] args) {
-			String[] candidatos = {"FELIPE","MARCIA", "JULIA", "PAULO", "AUGUSTO", "MONICA", "JORGE"};
+			
+            String[] candidatos = {"FELIPE","MARCIA", "JULIA", "PAULO", "AUGUSTO", "MONICA", "JORGE"};
 			
 			for (String candidato : candidatos) {
 				//chamar métodos 
@@ -23,7 +24,8 @@ public class ProcessoSeletivo {
 				}		
 		}
 		public static void selecionarCandidatos() {
-			String[] candidatos = {"FELIPE","MARCIA", "JULIA", "PAULO", "AUGUSTO", "MONICA", "JORGE"};
+			
+            String[] candidatos = {"FELIPE","MARCIA", "JULIA", "PAULO", "AUGUSTO", "MONICA", "JORGE"};
 			
 			int candidatosSelecionados = 0;
 			int candidatoAtual = 0;
@@ -42,7 +44,8 @@ public class ProcessoSeletivo {
 			}
 		}
 		public static void imprimirCandidatos() {
-			String[] candidatos = {"FELIPE","MARCIA", "JULIA", "PAULO", "AUGUSTO"};
+			
+            String[] candidatos = {"FELIPE","MARCIA", "JULIA", "PAULO", "AUGUSTO"};
 				
 			System.out.println("Imprimindo a lista de candidatos informando o índice do elemento");
 			
@@ -56,7 +59,8 @@ public class ProcessoSeletivo {
 			}
 		}
 		public static void entrarEmContato(String candidato) {
-			int tentativasRealizadas = 1;
+			
+            int tentativasRealizadas = 1;
 			boolean continuarTentando = true;
 			boolean atendeuLigacao = false;
 			
