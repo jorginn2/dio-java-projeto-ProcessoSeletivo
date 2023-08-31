@@ -7,7 +7,7 @@ public class ProcessoSeletivo {
 			String[] candidatos = {"FELIPE","MARCIA", "JULIA", "PAULO", "AUGUSTO", "MONICA", "JORGE"};
 			
 			for (String candidato : candidatos) {
-				//chamar métodos
+				//chamar métodos 
 			}
 		}
 		public static void analisarCandidato(double salarioPretendido) {
